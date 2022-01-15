@@ -61,6 +61,8 @@ body {
   align-items: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  color: var(--first-background-color);
+  background-color: var(--accent-color);
 }
 .filter .button {
   font-family: inherit;
