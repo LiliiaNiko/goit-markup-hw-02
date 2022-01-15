@@ -31,9 +31,7 @@ body {
 .contacts .link {
   color: var(--secondary-text-color);
 }
-.site-nav .link.current {
-  color: var(--accent-color);
-}
+
 .site-nav .link:hover,
 .contacts .link:hover,
 .site-nav .link:focus,
@@ -127,14 +125,15 @@ body {
 .list {
   list-style: none;
 }
-.address {
+.address,
+.item {
   color: var(--first-background-color);
   text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .item {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-nav {
-  font-style: inherit;
 }
